@@ -1,7 +1,8 @@
 import Sidebar from "@/components/layout/sidemenu/sidemenu";
-import Header from "@/components/header/header";
+import Header from "@/components/layout/header/header";
 import OrderFilter from "@/components/filters/filtersmenu";
 import OrderTable from "@/components/ordertable/ordertable";
+import TrackOrderBanner from "@/components/layout/header/track";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Filter } from "lucide-react";
 import Link from "next/link";
@@ -31,6 +32,7 @@ export default function OrdersPage() {
 
       <main className="flex-1 flex flex-col">
         <Header />
+        <TrackOrderBanner />
         <div className="flex flex-col lg:flex-row">
           <div className="lg:hidden px-4 py-2">
             <Sheet>

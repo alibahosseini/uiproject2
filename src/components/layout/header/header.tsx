@@ -3,7 +3,7 @@
 import { Bell, MessageSquare, Clock } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { ModeToggle } from "../themes/button";
+import { ModeToggle } from "@/components/themes/button";
 export default function Header() {
   return (
     <header className="flex  items-center justify-between   px-4 py-2 border-b">

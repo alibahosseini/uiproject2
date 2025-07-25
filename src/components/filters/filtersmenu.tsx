@@ -69,7 +69,7 @@ export default function OrderFilterPanel({
       </div>
 
       {/* پایین: دکمه‌ها */}
-      <div className="flex justify-between gap-2 pt-4 border-t mt-6">
+      <div className="flex justify-between gap-2 pt-4 mt-6 absolute bottom-0">
         <Button variant="outline" className="flex-1 text-xs ">
           حذف فیلترها
         </Button>
