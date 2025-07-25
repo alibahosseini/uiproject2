@@ -1,4 +1,4 @@
-import Sidebar from "@/components/sidemenu/sidemenu";
+import Sidebar from "@/components/layout/sidemenu/sidemenu";
 import Header from "@/components/header/header";
 import OrderFilter from "@/components/filters/filtersmenu";
 import OrderTable from "@/components/ordertable/ordertable";
