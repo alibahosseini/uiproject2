@@ -93,7 +93,6 @@ export default function OrderTable({ className = "" }: { className?: string }) {
               {openRow === order.id && (
                 <tr>
                   <td colSpan={6} className="border-t-8">
-                    {/* ارسال اطلاعات سفارش به کامپوننت جزییات */}
                     <OrderRowDetails orderId={order.id} />
                   </td>
                 </tr>

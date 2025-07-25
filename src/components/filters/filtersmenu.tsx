@@ -18,14 +18,13 @@ export default function OrderFilterPanel({
     <aside
       className={`w-[260px] hvhh  border-l p-4 flex flex-col justify-between shadow-sm overflow-y-auto ${className}`}
     >
-      {/* بالا: عنوان و فیلترها */}
+    
       <div className="space-y-6">
         <h2 className="text-base font-semibold text-gray-800 dark:text-white">
           فیلترها
         </h2>
 
         <Accordion type="multiple" className="space-y-2">
-          {/* تاریخ */}
           <AccordionItem value="date">
             <AccordionTrigger className="text-sm">
               بر اساس تاریخ و ساعت
@@ -36,7 +35,6 @@ export default function OrderFilterPanel({
             </AccordionContent>
           </AccordionItem>
 
-          {/* شماره سفارش */}
           <AccordionItem value="order-id">
             <AccordionTrigger className="text-sm">
               بر اساس شماره سفارش
@@ -46,7 +44,6 @@ export default function OrderFilterPanel({
             </AccordionContent>
           </AccordionItem>
 
-          {/* مبلغ */}
           <AccordionItem value="price">
             <AccordionTrigger className="text-sm">
               بر اساس مبلغ
@@ -56,7 +53,6 @@ export default function OrderFilterPanel({
             </AccordionContent>
           </AccordionItem>
 
-          {/* وضعیت سفارش */}
           <AccordionItem value="status">
             <AccordionTrigger className="text-sm">
               بر اساس وضعیت سفارش
@@ -68,7 +64,6 @@ export default function OrderFilterPanel({
         </Accordion>
       </div>
 
-      {/* پایین: دکمه‌ها */}
       <div className="flex justify-between gap-2 pt-4 mt-6 absolute bottom-0">
         <Button variant="outline" className="flex-1 text-xs ">
           حذف فیلترها

@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cn } from "@/lib/utils"; // از shadcn برای مدیریت کلاس‌ها
+import { cn } from "@/lib/utils"; 
 import { PackageSearch } from "lucide-react";
 
 const menuItems = [
   { label: "پیگیری سفارشات", href: "/orders", icon: PackageSearch },
-  // اینجا می‌تونی منوهای بیشتری اضافه کنی
+
 ];
 
 export default function Sidebar({ className = "" }: { className?: string }) {
@@ -17,14 +17,14 @@ export default function Sidebar({ className = "" }: { className?: string }) {
     <aside
       className={`w-64  border-l h-screen flex flex-col justify-between p-4 shadow-sm ${className}`}
     >
-      {/* لوگو */}
+    
       <div className="mb-8">
         <Link href="/" className="flex items-center justify-start">
           <img src="logo.png" alt="لوگو" className="h-12 w-auto" />
         </Link>
       </div>
 
-      {/* منوی اصلی */}
+    
       <nav className="flex-1 space-y-2">
         {menuItems.map(({ label, href, icon: Icon }) => (
           <Link
@@ -43,7 +43,7 @@ export default function Sidebar({ className = "" }: { className?: string }) {
         ))}
       </nav>
 
-      {/* نسخه یا اطلاعات پایین */}
+
       <div className="text-xs text-muted-foreground text-center mt-8">
         نسخه 1.0.0
       </div>

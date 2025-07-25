@@ -7,7 +7,7 @@ import { ModeToggle } from "@/components/themes/button";
 export default function Header() {
   return (
     <header className="flex  items-center justify-between   px-4 py-2 border-b">
-      {/* سمت راست: آیکن‌ها و ساعت */}
+   
       <div className="items-center gap-3 hidden md:flex">
         <Avatar className="h-10 w-10">
           <AvatarImage src="/avatar.jpg" />
@@ -33,12 +33,11 @@ export default function Header() {
         </div>
       </div>
 
-      {/* سمت چپ: اطلاعات کاربر */}
     </header>
   );
 }
 
-// کامپوننت آیکن با استایل دکمه‌ای گرد
+
 function IconButton({ icon }: { icon: React.ReactNode }) {
   return (
     <Button variant="ghost" size="icon" className="rounded-xl border">

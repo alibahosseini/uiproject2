@@ -9,7 +9,6 @@ export default function OrderRowDetails({ orderId }: OrderRowDetailsProps) {
   void orderId;
   return (
     <div className="space-y-6 text-sm dark:bg-zinc-800">
-      {/* جدول کالاها */}
       <div className="p-4">
         <h3 className="font-semibold mb-2">کالاها</h3>
         <table className="w-full text-center border text-xs">
@@ -30,7 +29,6 @@ export default function OrderRowDetails({ orderId }: OrderRowDetailsProps) {
         </table>
       </div>
 
-      {/* مشخصات خودرو */}
       <div className="p-4 border-t-8 ">
         <h3 className="font-semibold mb-2">مشخصات خودرو</h3>
         <table className="w-full text-center text-xs">
@@ -58,7 +56,6 @@ export default function OrderRowDetails({ orderId }: OrderRowDetailsProps) {
         </table>
       </div>
 
-      {/* ارتباط با راننده */}
       <div className="p-4 border-t-8 ">
         <h3 className="font-semibold mb-2">راننده</h3>
         <table className="w-full text-center  text-xs">
@@ -88,7 +85,6 @@ export default function OrderRowDetails({ orderId }: OrderRowDetailsProps) {
         </table>
       </div>
 
-      {/* دکمه ثبت بازخورد */}
       <div className="p-6 w-full ordertablebtnbg">
         <FeedbackModal />
       </div>
