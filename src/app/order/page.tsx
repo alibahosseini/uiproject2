@@ -14,7 +14,7 @@ export default function OrdersPage() {
         <Sheet>
           <div>
             <Link href="/">
-              <img src="/logo.png" alt="لوگو" className="h-12 w-auto pt-5" />
+              <img src="logo.png" alt="لوگو" className="h-12 w-auto pt-5" />
             </Link>
           </div>
           <SheetTrigger className="p-2 rounded-md border bg-white">

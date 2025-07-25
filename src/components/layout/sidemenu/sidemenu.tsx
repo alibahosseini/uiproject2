@@ -19,8 +19,8 @@ export default function Sidebar({ className = "" }: { className?: string }) {
     >
       {/* لوگو */}
       <div className="mb-8">
-        <Link href="/" className="flex items-center justify-center">
-          <img src="/logo.png" alt="لوگو" className="h-12 w-auto" />
+        <Link href="/" className="flex items-center justify-start">
+          <img src="logo.png" alt="لوگو" className="h-12 w-auto" />
         </Link>
       </div>
 
